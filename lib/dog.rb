@@ -4,8 +4,8 @@ class Dog
     @breed = breed
   end
   
-  attr_accessible :name 
-  attr_accessible :breed 
+  attr_accessor :name 
+  attr_accessor :breed 
   
   
   end
